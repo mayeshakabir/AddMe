@@ -42,6 +42,45 @@
             android:id="@+id/floatingActionButton2"
             />
 
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:clickable="true"
+            app:backgroundTint="@color/colorPrimaryDark"
+            app:fabSize="normal"
+            app:srcCompat="@drawable/instagram"
+            android:id="@+id/floatingActionButton3"
+            />
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:clickable="true"
+            app:backgroundTint="@color/colorPrimaryDark"
+            app:fabSize="normal"
+            app:srcCompat="@drawable/youtube"
+            android:id="@+id/floatingActionButton4"
+            />
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:clickable="true"
+            app:backgroundTint="@color/colorPrimaryDark"
+            app:fabSize="normal"
+            app:srcCompat="@drawable/vimeo"
+            android:id="@+id/floatingActionButton5"
+            />
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:clickable="true"
+            app:backgroundTint="@color/colorPrimaryDark"
+            app:fabSize="normal"
+            app:srcCompat="@drawable/linkedin"
+            android:id="@+id/floatingActionButton6"
+            />
+
     </LinearLayout>
 
 
