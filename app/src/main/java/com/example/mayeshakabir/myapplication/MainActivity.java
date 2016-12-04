@@ -21,16 +21,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         webView = (WebView) findViewById(R.id.webView);
-        webView.setWebViewClient(new MyWebViewClient(){
-            @Override
-            public boolean shouldOverrideUrlLoading(WebView view, String url)
-            {
-                view.loadUrl(url);
-                return true;
-            }
-        });
+        webView.setWebViewClient(new MyWebViewClient());
+
 
         webView.getSettings().setJavaScriptEnabled(true);
+
     }
 
     private class MyWebViewClient extends WebViewClient {
