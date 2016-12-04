@@ -46,7 +46,7 @@
             app:fabSize="normal"
             app:srcCompat="@drawable/twitter"
             android:id="@+id/floatingActionButton2"
-            />
+            android:onClick="gotToTwitter" />
 
         <android.support.design.widget.FloatingActionButton
             android:layout_width="80dp"
@@ -56,7 +56,7 @@
             app:fabSize="normal"
             app:srcCompat="@drawable/instagram"
             android:id="@+id/floatingActionButton3"
-            />
+            android:onClick="goToInsta" />
 
         <android.support.design.widget.FloatingActionButton
             android:layout_width="80dp"
@@ -66,7 +66,7 @@
             app:fabSize="normal"
             app:srcCompat="@drawable/youtube"
             android:id="@+id/floatingActionButton4"
-            />
+            android:onClick="goToYoutube" />
 
         <android.support.design.widget.FloatingActionButton
             android:layout_width="80dp"
@@ -76,7 +76,7 @@
             app:fabSize="normal"
             app:srcCompat="@drawable/vimeo"
             android:id="@+id/floatingActionButton5"
-            />
+            android:onClick="goToVimeo" />
         <android.support.design.widget.FloatingActionButton
             android:layout_width="80dp"
             android:layout_height="80dp"
@@ -85,7 +85,7 @@
             app:fabSize="normal"
             app:srcCompat="@drawable/linkedin"
             android:id="@+id/floatingActionButton6"
-            />
+            android:onClick="goToLinkd" />
 
     </LinearLayout>
 
